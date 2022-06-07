@@ -10,7 +10,6 @@ phases:
     - echo Siva*5pani | docker login --username saritha10 --password-stdin
     - TAG="$(echo $CODEBUILD_RESOLVED_SOURCE_VERSION | head -c 8)"
     - IMAGE_URI=156962844638.dkr.ecr.us-east-1.amazonaws.com/process_pension_839818:${TAG}
-    
   build:
     commands:
     - echo Build started on `date`
