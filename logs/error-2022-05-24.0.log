@@ -1,0 +1,4 @@
+2022-05-24_11-02-39 [http-nio-8101-exec-10] ERROR c.c.p.p.e.GlobalExceptionHandler - handles by handleFeignStatusException
+2022-05-24_11-02-39 [http-nio-8101-exec-10] ERROR c.c.p.p.e.GlobalExceptionHandler - [400] during [POST] to [http://localhost:8103/disbursement/jwt/t1/disbursePension] [PensionDisbursementFeignClient#getResponse(String,ProcessPensionInput)]: [{"timeStamp":"24-05-2022 11:21:14"}]
+2022-05-24_11-02-39 [http-nio-8101-exec-1] ERROR c.c.p.p.e.GlobalExceptionHandler - handles by handleFeignStatusException
+2022-05-24_11-02-39 [http-nio-8101-exec-1] ERROR c.c.p.p.e.GlobalExceptionHandler - [400] during [POST] to [http://localhost:8103/disbursement/jwt/t1/disbursePension] [PensionDisbursementFeignClient#getResponse(String,ProcessPensionInput)]: [{"timeStamp":"24-05-2022 11:21:17"}]

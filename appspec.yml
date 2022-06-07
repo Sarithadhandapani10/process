@@ -1,0 +1,10 @@
+version: 0.0
+Resources:
+- TargetService:
+Type: AWS::ECS::Service
+Properties:
+TaskDefinition: "arn:aws:ecs:us-east-1:156962844638:task-definition/saritha-pms-pensioner-task-definition:1"
+LoadBalancerInfo:
+ContainerName: "saritha-pms-pensioner-container"
+ContainerPort: 8101
+PlatformVersion: "LATEST"
