@@ -12,7 +12,7 @@ import com.cts.pension.process.model.ProcessPensionResponse;
 
 	
 
-@FeignClient(name = "PensionDisbursement-Microservices",url = "http://localhost:8103/disbursement/jwt/t1")
+@FeignClient(name = "PensionDisbursement-Microservices",url = "saritha-pms-disbursement-lb-1581305805.us-east-1.elb.amazonaws.com/disbursement/jwt/t1")
 public interface PensionDisbursementFeignClient {
 	
 	@PostMapping("/disbursePension")
