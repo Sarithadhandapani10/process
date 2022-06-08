@@ -11,7 +11,7 @@ import com.cts.pension.process.model.PensionerDetail;
 
 import io.swagger.annotations.ApiParam;
 
-@FeignClient(name ="PensionerDetail-Microservice",url = "http://localhost:8102/pensioner/jwt/t1")
+@FeignClient(name ="PensionerDetail-Microservice",url = "saritha-pms-detailslb-1224191489.us-east-1.elb.amazonaws.com/pensioner/jwt/t1")
 public interface PensionerDetailFeignClient {
 	
 	@GetMapping("/PensionerDetailByAadhaar/{aadharNumber}")
